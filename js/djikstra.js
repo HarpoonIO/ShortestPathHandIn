@@ -14,8 +14,12 @@ var Djikstra = function () {
         while (nodeQueue.length > 0) {
             var u = nodeQueue[nodeQueue.length - 1];
 
+            // removes u from nodeQueue
+            var index = nodeQueue.indexOf(u);
+            nodeQueue.splice(index, 1);
+
             console.log("");
-            console.log("Visiting node " + u);
+            console.log("Visiting node: " + u);
             console.log("");
 
             // Loop through all the neighbours of u
@@ -65,10 +69,10 @@ var Djikstra = function () {
     // Now we backtrack to find the shortest path of nodes
     function getShortestPath(targetNode) {
         var path = [];
-        var node;
 
         while (targetNode.previousNode) {
             path.push(targetNode.previousNode);
+            targetNode = targetNode.previousNode;
         }
 
         return path.reverse();

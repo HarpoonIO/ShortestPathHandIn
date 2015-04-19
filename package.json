@@ -1,0 +1,31 @@
+{
+  "name": "ShortestPathHandIn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HarpoonIO/ShortestPathHandIn.git"
+  },
+  "author": "Thomas Hedegaard & Christopher Mortensen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HarpoonIO/ShortestPathHandIn/issues"
+  },
+  "homepage": "https://github.com/HarpoonIO/ShortestPathHandIn",
+  "devDependencies": {
+    "jasmine-core": "^2.2.0",
+    "karma": "^0.12.31",
+    "karma-chrome-launcher": "^0.1.5",
+    "karma-firefox-launcher": "^0.1.3",
+    "karma-ie-launcher": "^0.1.5",
+    "karma-jasmine": "^0.3.1",
+    "karma-safari-launcher": "^0.1.1"
+  }
+}

@@ -1,4 +1,9 @@
-var Edge = function(){
+var Edge = function (_nodeTarget, nodeWeight) {
+    var target = _nodeTarget;
+    var weight = nodeWeight;
 
-        return{};
+    return {
+        target: target,
+        weight: weight
+    };
 };

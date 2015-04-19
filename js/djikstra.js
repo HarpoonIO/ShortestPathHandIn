@@ -1,6 +1,5 @@
 var Djikstra = function () {
 
-
     function computePaths(sourceNode) {
 
         sourceNode.minDistance = 0;

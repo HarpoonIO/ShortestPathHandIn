@@ -19,7 +19,9 @@ module.exports = function (config) {
             'js/edge.js',
             'js/node.js',
             // Test files goes here
-            'tests/node_test.js'
+            'tests/node_test.js',
+            'tests/edge_test.js'
+
 
         ],
 
